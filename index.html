@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- Typed.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">whatutrynasay</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="home-img">
+        <img src="sio1.jpg" alt="profile" />
+      </div>
+      <div class="home-text">
+        <h4> Hello im </h4>
+        <h1>Sionai</h1>
+        <h3> About me? <span class="typing"></span></h3>
+        <p>Currently Studying Html & CSS</p>
+        <div class="social-icons">
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+        <a href="#gallery" class="btn">CLICK HERE</a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2></h2>
+    <div class="gallery-img">
+      <img src="sio2.jpg" alt="View Image" />
+    </div>
+  </section>    
+
+  <!-- Typed.js init -->
+  <script>
+    var typed = new Typed(".typing", {
+      strings: ["Wala", "Tao lang", "Way kwarta ", " Wa tanan"],
+      typeSpeed:80,
+      backSpeed: 50,
+      loop: true
+    });
+  </script>
+
+</body>
+</html>
