@@ -165,4 +165,17 @@
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
+.meme-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+    background-color: #f5f5f5;
+  }
+  
+  .meme-img {
+    max-width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
   
